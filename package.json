@@ -1,21 +1,19 @@
 {
-    "name": "hello-koa2",
+    "name": "chat-room",
     "version": "1.0.0",
-    "description": "Hello Koa 2 example with async",
+    "description": "websocket with koa integration",
     "main": "app.js",
     "scripts": {
-        "start": "node app.js"
+        "start": "node --use_strict app.js"
     },
     "keywords": [
+        "websocket",
+        "ws",
         "koa",
-        "async"
+        "async",
+        "nunjucks"
     ],
-    "author": "Yukun",
-    "license": "Apache-2.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/michaelliao/learn-javascript.git"
-    },
+    "author": "yukun",
     "dependencies": {
         "ws": "1.1.1",
         "koa": "2.0.0",
